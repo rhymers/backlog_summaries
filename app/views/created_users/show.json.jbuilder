@@ -1,0 +1,1 @@
+json.partial! "created_users/created_user", created_user: @created_user

@@ -1,0 +1,84 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Summary:</strong>
+  <%= @issue.summary %>
+</p>
+
+<p>
+  <strong>Component:</strong>
+  <%= @issue.component_id %>
+</p>
+
+<p>
+  <strong>Created user:</strong>
+  <%= @issue.created_user_id %>
+</p>
+
+<p>
+  <strong>Component:</strong>
+  <%= @issue.component_id %>
+</p>
+
+<p>
+  <strong>Updated on:</strong>
+  <%= @issue.updated_on %>
+</p>
+
+<p>
+  <strong>Due date:</strong>
+  <%= @issue.due_date %>
+</p>
+
+<p>
+  <strong>Assigner:</strong>
+  <%= @issue.assigner_id %>
+</p>
+
+<p>
+  <strong>Priority:</strong>
+  <%= @issue.priority_id %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @issue.url %>
+</p>
+
+<p>
+  <strong>Issue type:</strong>
+  <%= @issue.issue_type_id %>
+</p>
+
+<p>
+  <strong>Created on:</strong>
+  <%= @issue.created_on %>
+</p>
+
+<p>
+  <strong>Estimated hours:</strong>
+  <%= @issue.estimated_hours %>
+</p>
+
+<p>
+  <strong>Milestone:</strong>
+  <%= @issue.milestone_id %>
+</p>
+
+<p>
+  <strong>Start date:</strong>
+  <%= @issue.start_date %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @issue.status_id %>
+</p>
+
+<p>
+  <strong>Project:</strong>
+  <%= @issue.project_id %>
+</p>
+
+<%= link_to 'Edit', edit_issue_path(@issue) %> |
+<%= link_to 'Back', issues_path %>

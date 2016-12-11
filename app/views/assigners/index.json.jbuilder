@@ -1,0 +1,1 @@
+json.array! @assigners, partial: 'assigners/assigner', as: :assigner

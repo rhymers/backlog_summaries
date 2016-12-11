@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Assigners</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @assigners.each do |assigner| %>
+      <tr>
+        <td><%= assigner.name %></td>
+        <td><%= link_to 'Show', assigner %></td>
+        <td><%= link_to 'Edit', edit_assigner_path(assigner) %></td>
+        <td><%= link_to 'Destroy', assigner, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Assigner', new_assigner_path %>

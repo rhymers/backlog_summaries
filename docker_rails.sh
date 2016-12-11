@@ -3,7 +3,7 @@
 rails_version="${RAILS_VERSION:-latest}"
 ruby_version="${RUBY_VERSION:-2.3}"
 
-docker run --rm -v `pwd`:/usr/src/app rails:$rails_version rails new /usr/src/app --database mysql --git --force
+# docker run --rm -v `pwd`:/usr/src/app rails:$rails_version rails new /usr/src/app --database mysql --git --force
 
 cat << __EOT__ > Dockerfile
 FROM ruby:$ruby_version

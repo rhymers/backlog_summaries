@@ -1,0 +1,2 @@
+json.extract! issue, :id, :summary, :component_id, :created_user_id, :component_id, :updated_on, :due_date, :assigner_id, :priority_id, :url, :issue_type_id, :created_on, :estimated_hours, :milestone_id, :start_date, :status_id, :project_id, :created_at, :updated_at
+json.url issue_url(issue, format: :json)

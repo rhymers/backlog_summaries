@@ -1,0 +1,1 @@
+json.partial! "assigners/assigner", assigner: @assigner

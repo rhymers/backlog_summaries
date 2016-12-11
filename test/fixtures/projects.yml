@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  archived: MyString
+  name: MyString
+  key: MyString
+  url: MyString
+  text_formatting_rule: MyString
+  use_parent_child_issue: MyString
+
+two:
+  archived: MyString
+  name: MyString
+  key: MyString
+  url: MyString
+  text_formatting_rule: MyString
+  use_parent_child_issue: MyString

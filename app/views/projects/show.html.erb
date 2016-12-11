@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Archived:</strong>
+  <%= @project.archived %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @project.name %>
+</p>
+
+<p>
+  <strong>Key:</strong>
+  <%= @project.key %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @project.url %>
+</p>
+
+<p>
+  <strong>Text formatting rule:</strong>
+  <%= @project.text_formatting_rule %>
+</p>
+
+<p>
+  <strong>Use parent child issue:</strong>
+  <%= @project.use_parent_child_issue %>
+</p>
+
+<%= link_to 'Edit', edit_project_path(@project) %> |
+<%= link_to 'Back', projects_path %>
